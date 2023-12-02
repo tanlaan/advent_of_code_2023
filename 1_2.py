@@ -21,7 +21,6 @@ def main():
                     for word in digit_words:
                         if(line[i:i+len(word)] == word):
                             nums.append(digit_vals[word])
-                            i += len(word) - 1
                             break
                 i += 1
 
